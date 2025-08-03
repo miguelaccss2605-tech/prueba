@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    background-image: url(./fondoact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
+    font-family: Georgia, serif;
+}
+nav
+{
+    width: 100%;
+    position: fixed;
+    margin-bottom: 100px;
+    z-index: 3;   
+   
+}
+nav li
+{
+    float: left;
+  transition: all ease 300ms;
+}
+.imgmenu{
+
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.idioma
+{
+    text-align: center;
+    margin-top: 25px;
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu 
+{
+    margin-top:23px ;
+    width: 105px;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family:'Courier New', Courier, monospace;
+  
+}
+.menu:hover
+{
+    background-color: rgb(14, 57, 248);
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+
+    background-color: rgb(255, 255, 251);
+    overflow: hidden;
+    height: 90px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63);
+}
+
+#ImgLeyenda{
+   margin-left: 461px;
+   padding-top: 100px;
+}
+
+.titulorey
+{
+    text-align: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.634);
+    margin-inline: 500px;
+    border-radius: 6px;
+}
+
+#primerbloque aside
+{
+    width: 45%; 
+     
+}
+
+#primerbloque
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#primerbloque aside p
+{
+    background: rgba(255, 255, 175, 0.822);
+    padding: 15px;
+    margin-top: 65px; 
+}
+
+#segundobloque
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#segundobloque aside p
+{
+    background: rgba(255, 255, 175, 0.822);
+    padding: 15px;
+    margin-top: 5px; 
+}
+
+#segundobloque aside img
+{
+    margin-top: 100px;
+}
+
+#tercerbloque
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#tercerbloque aside p
+{
+    background: rgba(255, 255, 175, 0.822);
+    padding: 15px;
+    margin-top: 65px; 
+}
+
+#tercerbloque aside img
+{
+    margin-top: 110px;
+}
+
+#contexto h1
+{
+    text-align: center;
+    padding: 10px
+}
+
+#contexto p
+{
+    background: rgba(255, 255, 175, 0.822);
+    padding: 8px;
+}
+
+#contexto h1
+{
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.634);
+    
+}
+#contexto
+{
+    border: black 3px solid;
+    margin-inline: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 412px)
+{
+    body{
+    background-image: url(./fondocel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
+    font-family: Georgia, serif;
+    min-height: 100vh;
+    }
+    html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    #ImgLeyenda{
+    margin-left: 10px;
+    padding-top: 100px;
+    }
+
+    .titulorey
+{
+    text-align: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.634);
+    margin-inline: 50px;
+    border-radius: 6px;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto; /* Centra horizontalmente */
+    display: flex;
+    flex-direction: column; /* Coloca hijos uno debajo del otro */
+    align-items: center; /* Centra horizontalmente los hijos */
+    gap: 1rem; /* Espacio entre elementos */
+  }
+
+  main img {
+    width: 100%; /* Las imágenes ocupan el 80% del body (porque están dentro del main) */
+    height: auto;
+  }
+
+  #contexto
+{
+    border: black 3px solid;
+    margin-inline: 50px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+#segundobloque
+{
+    margin-top: -100px;
+}
+#tercerbloque
+{
+    margin-top: -100px;
+}
+#tercerbloque aside p   
+{
+    margin-top: 10px;
+}
+
+
+#primerbloque
+{
+   width: 100%;
+    margin: 0 auto; /* Centra horizontalmente */
+    display: flex;
+    flex-direction: column; /* Coloca hijos uno debajo del otro */
+    align-items: center; /* Centra horizontalmente los hijos */
+    gap: 1rem; /* Espacio entre elementos */
+}
+
+#primerbloque aside 
+{
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+    text-align: justify;
+}
+
+#primerbloque aside p   
+{
+    margin-top: -25px;
+}
+
+
+
+}
